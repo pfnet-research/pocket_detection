@@ -1,0 +1,854 @@
+{
+  "ctl_words": [
+    "<pad>",
+    "<unk>",
+    "<eos>",
+    "<sos>",
+    "<mask>"
+  ],
+  "itos": [
+    {
+      "res_name": "ALA",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "ALA",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "ALA",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "ALA",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "ALA",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "ALA",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "CD"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "CZ"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "HE"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "NE"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "NH1"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "NH2"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "ARG",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "ND2"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "OD1"
+    },
+    {
+      "res_name": "ASN",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "OD1"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "OD2"
+    },
+    {
+      "res_name": "ASP",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "OD1"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "OD2"
+    },
+    {
+      "res_name": "CSD",
+      "atom_name": "SG"
+    },
+    {
+      "res_name": "CSO",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "CSO",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "CSO",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "CSO",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "CSO",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "CSO",
+      "atom_name": "SG"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "CYS",
+      "atom_name": "SG"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "CD"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "NE2"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "OE1"
+    },
+    {
+      "res_name": "GLN",
+      "atom_name": "OXT"
+    },
+
+    {
+      "res_name": "GLU",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "CD"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "OE2"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "OE1"
+    },
+    {
+      "res_name": "GLU",
+      "atom_name": "OXT"
+    },
+
+    {
+      "res_name": "GLY",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "GLY",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "GLY",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "GLY",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "GLY",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "CD2"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "CE1"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "ND1"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "NE2"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "HIS",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "CD1"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "CG1"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "CG2"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "ILE",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "CD1"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "CD2"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "LEU",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "CD"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "CE"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "NZ"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "LYS",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "CE"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "MET",
+      "atom_name": "SD"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "CE"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "MSE",
+      "atom_name": "SE"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CD1"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CD2"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CE1"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CE2"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "CZ"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "PHE",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "CD"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "PRO",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "OG"
+    },
+    {
+      "res_name": "SER",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "CG2"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "OG1"
+    },
+    {
+      "res_name": "THR",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CD1"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CD2"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CE2"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CE3"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CH2"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CZ2"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "CZ3"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "NE1"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "TRP",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CD1"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CD2"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CE1"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CE2"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CG"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "CZ"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "OH"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "TYR",
+      "atom_name": "OXT"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "C"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "CA"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "CB"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "CG1"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "CG2"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "N"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "O"
+    },
+    {
+      "res_name": "VAL",
+      "atom_name": "OXT"
+    }
+  ],
+  "atom_feature": "ProtAtomFeature"
+}

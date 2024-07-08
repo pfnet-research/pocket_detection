@@ -1,0 +1,41 @@
+logger:
+  level: info
+  rdkit_level: critical
+
+dataset_builder:
+  class: pokeformer.datasets.generic_dataset_builder.GenericDatasetBuilder
+  dataset:
+    class: pokeformer.datasets.pyg_dataset.PygDataset
+    prot_atom_vocab: merged_prot_vocab.json
+    limit_atoms: ["CA"]
+    iou_threshold: null
+    mindist_threshold: 4.0
+    use_sasa: true
+    add_receptor: false
+
+
+predictor:
+  class: pokeformer.models.predictor.Predictor
+  model:
+    class: pokeformer.models.graph_transformer_model.GraphTransformerModel
+    in_dim: 256
+    out_dim: 256
+    num_heads: 4
+    num_layers: 12
+    layer_norm: true
+    batch_norm: false
+    dropout: 0.2
+
+    cutoff: 25.0
+    # cuton: 3.0
+    dist_resoln: 0.1328125
+    dist_embed_type: gaussian
+
+    sasa_rbf_dim: 128
+    sasa_max: 350
+
+sampler:
+  class: pokeformer.pdb_infer.PDBInfer
+  gpu: 0
+
+

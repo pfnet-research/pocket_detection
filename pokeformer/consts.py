@@ -1,0 +1,3 @@
+PDB_SET_DIR = None
+COVAL_THR = 2.0
+PKT_NEAR_DIST = 7.0
