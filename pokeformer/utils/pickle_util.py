@@ -3,7 +3,6 @@ import pickle
 from pathlib import Path
 from urllib.parse import urlparse
 
-import pfio
 import torch
 import tqdm
 
@@ -70,8 +69,7 @@ def conv_path(in_path):
         path_obj = Path(in_path)
         path_obj.parent.mkdir(parents=True, exist_ok=True)
     else:
-        fs = pfio.v2.from_url(f"{urlobj.scheme}://{urlobj.netloc}")
-        path_obj = pfio.v2.pathlib.Path(urlobj.path, fs=fs)
+        raise ValueError(f"url not supported: {in_path}")
     return path_obj
 
 

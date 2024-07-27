@@ -1,0 +1,6 @@
+numpy==1.26.4
+freesasa==2.2.1
+omegaconf==2.3.0
+pandas==2.2.2
+torchmetrics==1.4.0.post0
+biopython==1.84

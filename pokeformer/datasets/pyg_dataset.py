@@ -96,7 +96,7 @@ class PygDataset(BaseDataset):
             self.limit_atoms = lst
 
         self.prot_vocab = prot_vocab
-        self.collater = Collater(follow_batch=None, exclude_keys=None)
+        self.collater = Collater(dataset=None, follow_batch=None, exclude_keys=None)
 
         scr_path = None
         if config.scratch is not None:
@@ -223,7 +223,7 @@ class PygDataset(BaseDataset):
 
         # Protein nodes (coords)
         prot_crds = prot.get_np_coord()
-        prot_crds = torch.tensor(prot_crds)
+        prot_crds = torch.tensor(prot_crds, dtype=torch.float32)
 
         sasa = None
         if self.config.use_sasa is not None:
