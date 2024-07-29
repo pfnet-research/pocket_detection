@@ -44,12 +44,12 @@ If you will make predictions on this 1SQN.pdb file using the model downloaded fr
 
 If you intend to make predictions on your own PDB file, prepare the PDB file for the target protein you want to predict.
 First, remove water molecules, ligands, and other non-amino-acid residues.
-Then, modify [run_pdb_infer.sh](/examples/run_pdb_infer.sh) as described below.
+Then, modify [run_pdb_infer.sh](/examples/run_pdb_infer.sh#L18) as described below.
 ```
 sampler.pdb_files=["<Path to PDB file>"] \
 ```
 
-To carry out predictions on multiple PDB files at once, make the following adjustments.
+To carry out predictions on multiple PDB files at once, make the following adjustments to the [run_pdb_infer.sh](/examples/run_pdb_infer.sh#L18) file.
 ```
 sampler.pdb_files=["<Path to PDB file1>","<Path to PDB file2>"] \
 ```
