@@ -61,11 +61,7 @@ class PDBInferConfig:
 
 OUTPUT_KEYS = [
     "PDB_ID",
-    "dist_min",
-    "dist_min_het_code",
     "volume",
-    "label",
-    "HET_Code",
 ]
 
 
