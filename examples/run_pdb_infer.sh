@@ -3,7 +3,7 @@ set -eux
 
 GPU=0
 TOPDIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )"/.. &> /dev/null && pwd )
-MODELDIR=/path/to/model/location
+MODELDIR=.
 RESULT=.
 
 CONFIG_YAML=config_pdbinfer.yaml
@@ -13,7 +13,8 @@ env PYTHONPATH=$TOPDIR \
     $PYTHON $TOPDIR/scripts/inference.py \
     yaml=$CONFIG_YAML \
     sampler.gpu=$GPU \
-    sampler.model_path_list=[$MODELDIR/fold0/best_model.pt,$MODELDIR/fold1/best_model.pt,$MODELDIR/fold2/best_model.pt,$MODELDIR/fold3/best_model.pt,$MODELDIR/fold4/best_model.pt] \
+    sampler.model_path_list=[$MODELDIR/fold0_best_model.pt,$MODELDIR/fold1_best_model.pt,$MODELDIR/fold2_best_model.pt,$MODELDIR/fold3_best_model.pt,$MODELDIR/fold4_best_model.pt] \
     sampler.out_csv=$RESULT/infer_results.csv \
     sampler.pdb_files=["1SQN.pdb"] \
     sampler.pocket_result_base=$RESULT/pockets/
+
